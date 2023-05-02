@@ -1,0 +1,129 @@
+.toolbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.toolbar button {
+  margin: 0 5px;
+}
+
+.editor {
+  border: 1px solid #ccc;
+  height: 200px;
+  padding: 10px;
+}
+
+.bold-button {
+  width: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: #eee;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.bold-button:hover {
+  background-color: #edf1d6;
+}
+
+.italic-button {
+  width: 40px;
+  font-style: italic;
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: #eee;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.italic-button:hover {
+  background-color: #edf1d6;
+}
+
+.underline-button {
+  width: 40px;
+  text-decoration: underline;
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: #eee;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.underline-button:hover {
+  background-color: #edf1d6;
+}
+
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.toolbar button,
+.toolbar select {
+  margin-right: 10px;
+  font-weight: 550;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.toolbar select {
+  padding: 5px;
+}
+
+.toolbar button:hover,
+.toolbar select:hover {
+  background-color: #edf1d6;
+}
+
+.editor {
+  border: 1px solid #edf1d6;
+  padding: 10px;
+  min-height: 800px;
+  overflow: auto;
+}
+
+.editor:focus {
+  outline: none;
+  border-color: #9dc08b;
+  transition: 1s ease-in-out;
+}
+
+.image-button {
+  height: 35px;
+  width: 70px;
+}
+
+.editor::-webkit-scrollbar {
+  cursor: pointer;
+  border-radius: 10%;
+}
+.editor::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 1%;
+  background-color: gray;
+}

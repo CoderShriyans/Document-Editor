@@ -1,0 +1,72 @@
+.dark .bold-button {
+  color: #edf1d6;
+}
+
+.dark .bold-button:hover {
+  background-color: #1b1f19;
+}
+
+.dark .italic-button {
+  color: #edf1d6;
+}
+
+.dark .italic-button:hover {
+  background-color: #1b1f19;
+}
+
+.dark .underline-button {
+  color: #edf1d6;
+}
+
+.dark .underline-button:hover {
+  background-color: #1b1f19;
+}
+
+.dark .selectEditor {
+  color: #edf1d6;
+  background-color: #1b1f19;
+}
+
+.dark .selectEditor:hover {
+  background-color: #181717;
+}
+
+.dark .image-button {
+  color: #edf1d6;
+}
+
+.dark .image-button:hover {
+  background-color: #1b1f19;
+}
+
+.dark .save-button {
+  color: #edf1d6;
+}
+
+.dark .save-button:hover {
+  background-color: #1b1f19;
+}
+
+.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark .footer {
+  background-color: #1b1f19; 
+}
+
+.dark .footer-text {
+  color: aliceblue;
+}
+.dark .navbar-link {
+  color: #fff;
+}
+.navbar.dark {
+  background-color: #1b1f19;
+}
+
+.navbar.scrolled.dark {
+  transition: ease-in 0.2s;
+  background-color: transparent;
+}

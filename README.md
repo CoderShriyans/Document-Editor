@@ -10,7 +10,7 @@ Go to You Favourite Code Editor.
 Go To Your Favourite Code Editor's Terminal.
 
 3. Third Step
-Write There "npm install" don't write the Quotation mark.
+Write There "npm install" don't write the Quotation mark. *after installing this github*
 
 4. Fourth Step 
 After Installation of all the files just write their "npm start" don't write the Quotation mark.
